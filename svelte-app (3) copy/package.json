@@ -1,11 +1,12 @@
 {
   "name": "svelte-app",
   "version": "1.0.0",
-  "private": true,
+  "homepage": "http://theojolliffe.github.io/pandemic-emissions",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --no-clear"
+    "start": "sirv public --no-clear",
+    "deploy": "gh-pages -d public"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
@@ -20,6 +21,7 @@
   "dependencies": {
     "@rollup/plugin-dsv": "^2.0.1",
     "@rollup/plugin-json": "^4.1.0",
+    "gh-pages": "^3.2.3",
     "layercake": "^4.1.1",
     "sirv-cli": "^1.0.0"
   }
