@@ -1,0 +1,308 @@
+Product,GHG (kgCO2e per £),Code
+Rice,0.154,1.1.1.1
+Bread,0.154,1.1.1.2
+Other breads and cereals,0.154,1.1.1.3
+Pasta products,0.154,1.1.2
+"Buns, crispbread and biscuits",0.6759999999999999,1.1.3.1
+Cakes and puddings,0.6759999999999999,1.1.3.2
+Pastry (savoury),1.1340000000000001,1.1.4
+"Beef (fresh, chilled or frozen)",2.471,1.1.5
+"Pork (fresh, chilled or frozen)",2.471,1.1.6
+"Lamb (fresh, chilled or frozen)",2.471,1.1.7
+"Poultry (fresh, chilled or frozen)",2.471,1.1.8
+Bacon and ham,2.471,1.1.9
+Sausages,2.471,1.1.10.1
+"Offal, pate etc",2.471,1.1.10.2
+Other preserved or processed meat and meat preparations,2.471,1.1.10.3
+"Other fresh, chilled or frozen edible meat",2.471,1.1.10.4
+"Fish (fresh, chilled or frozen)",0.17,1.1.11.1
+"Seafood, dried, smoked or salted fish",0.17,1.1.11.2
+Other preserved or processed fish and seafood,0.17,1.1.11.3
+Whole milk,0.45399999999999996,1.1.12.1
+Low fat milk,0.45399999999999996,1.1.12.2
+Preserved milk,0.45399999999999996,1.1.12.3
+Cheese and curd,0.45399999999999996,1.1.13
+Eggs,0.45399999999999996,1.1.14
+Other milk products,0.45399999999999996,1.1.15.1
+Yoghurt,0.45399999999999996,1.1.15.2
+Butter,0.45399999999999996,1.1.16
+Margarine and other vegetable fats and peanut butter,0.45399999999999996,1.1.17
+Olive oil,0.643,1.1.18.1
+Edible oils and other animal fats,0.643,1.1.18.2
+Citrus fuits,0.07200000000000001,1.1.19.1
+Bananas,0.07200000000000001,1.1.19.2
+Apples,0.07200000000000001,1.1.19.3
+Pears,0.07200000000000001,1.1.19.4
+Stone fruits,0.07200000000000001,1.1.19.5
+Berries,0.07200000000000001,1.1.19.6
+"Other fresh, chilled or frozen fruits",0.07200000000000001,1.1.20
+Dried fruit and nuts,0.07200000000000001,1.1.21
+Preserved fruit and fruit based products,0.07200000000000001,1.1.22
+Leaf and stem vegetables,0.07200000000000001,1.1.23.1
+Cabbages,0.07200000000000001,1.1.23.2
+Vegetables grown for their fruit,0.07200000000000001,1.1.23.3
+"Root crops, non starchy bulbs and mushrooms",0.07200000000000001,1.1.23.4
+Dried vegetables,0.07200000000000001,1.1.24
+Other prepared or processed vegetables,0.07200000000000001,1.1.25
+Potatoes,0.07200000000000001,1.1.26
+Other tubers and products of tuber vegetables,0.07200000000000001,1.1.27
+Sugar,0.45799999999999996,1.1.28.1
+Other sugar products,0.45799999999999996,1.1.28.2
+Jams and marmalades,0.45799999999999996,1.1.29
+Chocolate,0.45799999999999996,1.1.30
+Confectionery products,0.45799999999999996,1.1.31
+Edible ices and ice cream,0.45799999999999996,1.1.32
+"Sauces, condiments",0.45799999999999996,1.1.33.1
+"Bakers yeast, dessert preparations, soups",0.45799999999999996,1.1.33.2
+"Salt, spices, herbs and other food products",0.45799999999999996,1.1.33.3
+Coffee,0.397,1.2.1
+Tea,0.397,1.2.2
+Cocoa and powdered chocolate,0.397,1.2.3
+Fruit and vegetable juices,0.20800000000000002,1.2.4
+Mineral or spring waters,0.397,1.2.5
+Soft drinks,0.261,1.2.6
+Spirits and liqueurs,0.08,2.1.1
+Wine from grape or other fruit,0.08,2.1.2.1
+Fortified wine,0.08,2.1.2.2
+Champagne and sparkling wines,0.08,2.1.2.3
+Beer and lager,0.08,2.1.3.1
+Ciders and Perry,0.08,2.1.3.2
+Alcopops,0.08,2.1.4
+Cigarettes,0.061,2.2.1
+Cigars,0.061,2.2.2.1
+Other tobacco,0.061,2.2.2.2
+Mens outer garments,0.278,3.1.1
+Mens under garments,0.278,3.1.2
+Womens outer garments,0.278,3.1.3
+Womens under garments,0.278,3.1.4
+Boys outer garments,0.278,3.1.5
+Girls outer garments,0.278,3.1.6
+Infants outer garments,0.278,3.1.7
+Childrens under garments,0.278,3.1.8
+Mens accessories,0.126,3.1.9.1
+Womens accessories,0.126,3.1.9.2
+Childrens accessories,0.126,3.1.9.3
+Protective head gear,0.126,3.1.9.4
+"Haberashery, clothing materials and clothing hire",3.071,3.1.10
+Dry cleaners and dyeing,0.192,3.1.11.1
+"Laundry, laundrettes",0.192,3.1.11.2
+Footwear for men,0.311,3.2.1
+Footwear for women,0.311,3.2.2
+Footwear for children and infants,0.311,3.2.3
+Repair and hire of footwear,0.41600000000000004,3.2.4
+Actual rentals,0.162,4.1.1
+Imputed rent,3.9930000000000003,4.1.2
+Central heating repairs,0.001,4.2.1
+House maintenance,0.099,4.2.2
+"Paint, wallpaper, timber",0.08800000000000001,4.2.3
+"Equipment hire, small materials",0.099,4.2.4
+Water charges,0.31,4.3.1
+Other regular househing payments incl service charge for rent,0.31,4.3.2
+Refuse collection including skip hire,0.31,4.3.3
+Electricity,2.249,4.4.1
+Gas,6.966,4.4.2
+Coal and coke,0.528,4.4.3.1
+Oil for central heating,0.528,4.4.3.2
+"Paraffin, weed, peat, hot water etc",0.528,4.4.3.3
+Furniture,0.183,5.1.1.1
+Fancy/decorative goods,0.436,5.1.1.2
+Garden furniture,0.183,5.1.1.3
+Soft floor coverings,0.263,5.1.2.1
+Hard floor coverings,0.011000000000000001,5.1.2.2
+Bedroom textiles including duvets and pillows,0.9790000000000001,5.2.1
+"Other household textiles, including cushions,towells, curtains",0.9790000000000001,5.2.2
+Gas cookers,0.151,5.3.1
+"Electric cookers, combined gas/electric cookers",0.151,5.3.2
+Clothes washing machines and clothes drying machines,0.151,5.3.3
+"Refridgerators, freezers and fridge freezers",0.151,5.3.4
+"Other major electrical appliances e.g. dish washers, microaves, vacuum cleaners, heaters",0.151,5.3.5
+Fire extinguishers,0.151,5.3.6
+Small electric household appliances,0.151,5.3.7
+Spare parts for appliances and repairs,0.35700000000000004,5.3.8
+Rental/hire of major hhold appliances,0.35700000000000004,5.3.9
+"Glassware, china, pottery, cutlery and silverware",1.239,5.4.1
+Kitchen and domestic utensils,1.239,5.4.2
+"Repair of glassware, tableware and household utensils",-0.0,5.4.3
+Storage and other durable household articles,1.239,5.4.4
+Electrical tools,0.11599999999999999,5.5.1
+"Garden tools, equipment and accessories",0.11599999999999999,5.5.2
+Small tools,0.11599999999999999,5.5.3
+"Door, electrical and other fittings",0.11599999999999999,5.5.4
+Electrical consumables,0.11599999999999999,5.5.5
+"Detergents, washing-up liquid, washing powder",0.083,5.6.1.1
+"Disinfectants, polishes, other cleaning materials, some pest controls",0.083,5.6.1.2
+Kitchen disposibles,0.091,5.6.2.1
+"Household hardwear and appliances, matches",0.091,5.6.2.2
+"Kitchen gloves, cloths etc",0.091,5.6.2.3
+"Pins, needles, tape measures, nails, nuts and bolts",0.083,5.6.2.4
+"Domestic services including cleaners, gardeners, au pairs",0.031,5.6.3.1
+"Carpet cleaning , ironing service and window cleaner",0.031,5.6.3.2
+Hire/repairof household furniture and furnishings,0.031,5.6.3.3
+NHS prescription charges and payments,2.548,6.1.1.1
+Medicines and medical goods (not NHS),2.08,6.1.1.2
+Other medical products,2.08,6.1.1.3
+Non-optical appliances and equipment,2.08,6.1.1.4
+"Purchse of spectacles, lenses, prescription sunglasses",0.255,6.1.2.1
+Accessories/repairs to spectacles/lenses,0.255,6.1.2.2
+"NHS medical, optical, dental and medical auxillary services",0.297,6.2.1.1
+"Private medical, optical, dental and auxillary services",0.297,6.2.1.2
+Other services,-0.0,6.2.1.3
+In-patient hospital services,0.297,6.2.2
+New cars/vans outright purchase,0.26,7.1.1.1
+New cars/vans loan/HP purcase,0.26,7.1.1.2
+Secondhand cars/vans outright purchase,0.26,7.1.2.1
+Secondhand cars/vans loan/HP purcase,0.26,7.1.2.2
+Outright purchase of new or secondhand motorcycles,0.19699999999999998,7.1.3.1
+Loan/HP purchase of new or secondhand motor cycles,0.19699999999999998,7.1.3.2
+Purchase of bicycles and other vehicles,0.19699999999999998,7.1.3.3
+Can/van accessories and fittings,0.111,7.2.1.1
+Car/van spare parts,0.111,7.2.1.2
+Motorcycle accessories and spare parts,0.111,7.2.1.3
+Bicycle accessories and spare parts,0.111,7.2.1.4
+Petrol,4.39,7.2.2.1
+Diesel oil,0.9179999999999999,7.2.2.2
+Other motor oils,0.9179999999999999,7.2.2.3
+"Car of van repairs, servicing and other work",0.561,7.2.3.1
+Motor cycle repairs and servicing,0.561,7.2.3.2
+Motoing organisation subscription,0.491,7.2.4.1
+"Garage rent other costs, car washing",0.491,7.2.4.2
+"Parking fees, tolls and permits",0.491,7.2.4.3
+Driving lessons,0.512,7.2.4.4
+"Anti-freeze, battery water, cleaning materials",0.498,7.2.4.5
+Rail and tube season tickets,0.505,7.3.1.1
+Rail and tube other than season tickets,0.505,7.3.1.2
+Bus and coach season tickets,0.705,7.3.2.1
+Bus and coach other than season tickets,0.705,7.3.2.2
+Combined fares other than season tickets,9.496,7.3.3.1
+Combined fares season tickets,9.496,7.3.3.2
+Air fares within UK,0.895,7.3.4.1
+Air fares inernational,0.895,7.3.4.2
+School travel,1.1909999999999998,7.3.4.3
+Taxis and hired cars with drivers,0.705,7.3.4.4
+Other personal travel and transport services,10.370999999999999,7.3.4.5
+"Hire of self drive cars, vans, bicycles",0.705,7.3.4.6
+Car leasing,0.705,7.3.4.7
+"Water travel, ferries and season tickets",8.325,7.3.4.8
+Postal services,0.48100000000000004,8.1
+Telephone purchase,0.28300000000000003,8.2.1
+Mobile phone purchase,0.28300000000000003,8.2.2
+"Answering machine, fax machine purchase",0.28300000000000003,8.2.3
+Telephone account,0.174,8.3.1
+Telephone coin and other payments,0.174,8.3.2
+Mobile phone account,0.174,8.3.3
+Mobile phone othr apyments,0.174,8.3.4
+Internet subscription fees,0.174,8.4
+"Audio equipment, CD players incl. in car",0.76,9.1.1.1
+"Audio accessories e.g. tapes, CDs, headphones",0.76,9.1.1.2
+Purchase of TV and digital decoder,0.76,9.1.2.1
+Satellite dish purchase and installation,0.76,9.1.2.2
+Cable TV connection,0.76,9.1.2.3
+Video recorder,-0.0,9.1.2.4
+DVD player/recorder,0.76,9.1.2.5
+"Blank, pre-recorded video cassettes and DVDs",0.76,9.1.2.6
+"Personal computers, printers and calculators",0.76,9.1.2.7
+"Spare parts for TV, video, audio",0.76,9.1.2.8
+Repare of AV,0.76,9.1.2.9
+Photographic and cine equipment,0.948,9.1.3.1
+Camera films,0.948,9.1.3.2
+"Optical instruments, binoculars, telescopes",0.948,9.1.3.3
+"Purchase of boats, trailers and horses",1.6019999999999999,9.2.1
+"Purchase of caravans, mobile homes",0.9990000000000001,9.2.2
+"Accessoris for boats, horses, caravans and motorhomes",0.9990000000000001,9.2.3
+Musical instruments,0.03,9.2.4
+Major durables for indoor recreation,0.9990000000000001,9.2.5
+Maintenance and repair or other major durables for recreation and culture,0.9990000000000001,9.2.6
+Purchase of motor caravan - outright purchase,0.9990000000000001,9.2.7
+Purchase of motor caravan  - loan/HP,-0.0,9.2.8
+"Games, toys and hobbies",0.43200000000000005,9.3.1
+Computer software and games cartridges,1.5019999999999998,9.3.2.1
+Console computer games,1.5019999999999998,9.3.2.2
+"Equipment for sport, camping and open-air recreation",0.43200000000000005,9.3.3
+BBQ and swings,0.41,9.3.4.1
+"Plants, flowers, seeds, fertiliers, insecticides",1.199,9.3.4.2
+Garden decorative,0.406,9.3.4.3
+"Artificial flowers, pot pourri",0.406,9.3.4.4
+Pet food,1.246,9.3.5.1
+Pet purchase and accessories,0.92,9.3.5.2
+Vetinary and other services for pets,0.574,9.3.5.3
+Spectator sports - admission charges,0.151,9.4.1.1
+Participant sports,0.151,9.4.1.2
+Subscriotions to sorts and social clubs,0.151,9.4.1.3
+Hire of equipment for sport,0.151,9.4.1.4
+Leisure class fees,0.151,9.4.1.5
+Cinemas,0.24100000000000002,9.4.2.1
+"Live entertainment, theatre, concerts, shows",0.24100000000000002,9.4.2.2
+"Museums, zoological gardens, theme parks",0.24100000000000002,9.4.2.3
+TV licences,0.24100000000000002,9.4.3.1
+Satellite subscriptions,0.24100000000000002,9.4.3.2
+Rent for TV/Satellite/VCR,0.24100000000000002,9.4.3.3
+Cable subscriptions,0.24100000000000002,9.4.3.4
+TV slot meter payments,0.24100000000000002,9.4.3.5
+"Video, cassette and CD hire",0.24100000000000002,9.4.3.6
+"Admissions to clubs, dances. Discos, bingo",0.423,9.4.4.1
+Social events and gatherings,0.423,9.4.4.2
+Subscriptions for leisure activities,0.423,9.4.4.3
+"Development of film, photos",0.045,9.4.5
+Football pools stakes,0.35100000000000003,9.4.6.1
+Bingo stakes,0.35100000000000003,9.4.6.2
+Lottery,0.35100000000000003,9.4.6.3
+"Bookmaker, tote, other betting stakes",0.35100000000000003,9.4.6.4
+Books,0.18600000000000003,9.5.1
+"Diaries, address books, cards etc",0.18600000000000003,9.5.2
+"Cards, calendars, posters and other printed matter",0.18600000000000003,9.5.3
+Newspapers,0.18600000000000003,9.5.4
+Magazines and periodicals,0.18600000000000003,9.5.5
+Education,0.297,10.1
+Educational trips,0.297,10.2
+Restaurant and café meals,0.43,11.1.1
+Alcoholic beverages,0.43,11.1.2
+Takeaway meals,0.43,11.1.3
+Hot food and cold food,0.43,11.1.4.1
+Confectionery,0.43,11.1.4.2
+Ice cream,0.43,11.1.4.3
+Soft drink,0.43,11.1.4.4
+Contract catering,0.43,11.1.5
+School meals,0.43,11.1.6.1
+Meals bought in workplace,0.43,11.1.6.2
+Holiday in the UK,0.425,11.2.1
+Holiday abroad,0.425,11.2.2
+Room hire,0.425,11.2.3
+"Hairdressing, beauty treatement",0.314,12.1.1
+Toilet paper,0.831,12.1.2
+Toiletries,0.12300000000000001,12.1.3.1
+"Bar of soap, liquid soap, shower gel",0.12300000000000001,12.1.3.2
+Toilet requisites,0.12300000000000001,12.1.3.3
+Baby toiletries and accessories,0.12300000000000001,12.1.4
+Hair products,0.12300000000000001,12.1.5.1
+Cosmetics and related accessories,0.12300000000000001,12.1.5.2
+Electrical appliances for personal care,0.12300000000000001,12.1.5.3
+Jewellery clocks and watches and other personal effects,0.335,12.2.1.1
+Leather and travel goods,0.335,12.2.1.2
+Sunglasses,0.335,12.2.1.3
+Baby equipment,0.335,12.2.2.1
+"Prams, pram accessories",0.335,12.2.2.2
+Repairs to personal goods,0.335,12.2.2.3
+Residential homes,0.43200000000000005,12.3.1.1
+Home help,0.43200000000000005,12.3.1.2
+"Nursery, creche, playschools",0.43200000000000005,12.3.1.3
+Child care payments,0.43200000000000005,12.3.1.4
+Structure insurance,0.14300000000000002,12.4.1.1
+Contents insurance,0.14300000000000002,12.4.1.2
+Insurance for household items,0.14300000000000002,12.4.1.3
+Medical insurance premiums,0.14300000000000002,12.4.2
+Vehicle insurance,0.14300000000000002,12.4.3.1
+Boat insurance,0.14300000000000002,12.4.3.2
+"Non package holiday, other travel insurance",0.14300000000000002,12.4.4
+Moving and storage of furniture,0.011000000000000001,12.5.1.1
+Property transaction - purchase and sale,0.011000000000000001,12.5.1.2
+Property transaction - sale only,0.011000000000000001,12.5.1.3
+Property transaction - purchase only,0.011000000000000001,12.5.1.4
+Property transaction - other payments,0.011000000000000001,12.5.1.5
+Bank building society fees,0.001,12.5.2.1
+Bank and post office counter charges,0.001,12.5.2.2
+Credit card fees,-0.0,12.5.2.3
+Other professional fees,2.792,12.5.3.1
+Legal fees,2.792,12.5.3.2
+Funeral expenses,2.792,12.5.3.3
+TU and professional organisations,2.792,12.5.3.4
+Other payments for services,2.792,12.5.3.5

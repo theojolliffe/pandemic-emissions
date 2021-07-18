@@ -1,0 +1,46 @@
+{"results": [
+    {
+        "id": "Q1",
+        "type": "options",
+        "difficulty": "easy",
+        "question": "How much meat do you eat?",
+        "options": [
+        "Meat in every meal",
+        "Some meals",
+        "No beef",
+        "Meat very rarely",
+        "Vegetarian",
+        "Vegan"
+        ]
+    },
+    {
+        "id": "Q2",
+        "type": "fieldEntry",
+        "difficulty": "easy",
+        "question": "How many hours a week do you spend in cars as a driver or passenger?"
+    },
+    {
+        "id": "Q3",
+        "type": "options",
+        "difficulty": "hard",
+        "question": "How often do you fly in a normal year?",
+        "options": [
+            "Don't usually fly",
+            "One return flight to European destination",
+            "One return flight to non-European destination",
+            "Two return flights",
+            "More than two flights"
+        ]
+    },
+    {
+        "id": "Q4",
+        "type": "options",
+        "difficulty": "hard",
+        "question": "How do you heat your home?",
+        "options": [
+            "Gas",
+            "Oil",
+            "Electricity"
+        ]
+    }
+]}
