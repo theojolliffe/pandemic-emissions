@@ -1,5 +1,6 @@
 <script>
     import BAR from './BAR.svelte';
+    import COLUMN from './COLUMN.svelte';
     import emissionLookup from './data/consumerEmissionConvertor.csv';
 
     export let reps;
@@ -94,8 +95,8 @@
 
     </div>
 
-    <div style="height: 300px; margin-bottom: 50px; transform: rotate(-90deg) translate(-50%, 0%) scale(1.4);">
-        <BAR data={data(a, b, c, d, e)}></BAR>
+    <div style="height: 700px; margin-bottom: 50px; margin-top: 100px;">
+        <COLUMN data={data(a, b, c, d, e)}></COLUMN>
     </div>
 
 </div>
