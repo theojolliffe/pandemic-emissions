@@ -1,0 +1,369 @@
+{"results": [
+    {
+        "question": "How would you best describe your diet?",
+        "answers": [
+            {"id": "0a", "text": "Meat in every meal"},
+            {"id": "0b", "text": "Meat in some meals"},
+            {"id": "0c", "text": "No beef"},
+            {"id": "0d", "text": "Meat very rarely"},
+            {"id": "0e", "text": "Vegetarian"},
+            {"id": "0f", "text": "Vegan"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 1,
+        "type": "radio buttons",
+        "opening": false
+    },
+    {
+        "question": "In a week, how much do you spend on food from restaurants, canteens and takeaways?",
+        "answers": [
+            {"id": "1a", "text": "£0"},
+            {"id": "1b", "text": "£1- £10"},
+            {"id": "1c", "text": "£10 - £50"},
+            {"id": "1d", "text": "More than £50"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 1,
+        "type": "radio buttons",
+        "opening": false
+    },
+    {
+        "question": "Of the food you buy how much is wasted and thrown away?",
+        "answers": [
+            {"id": "2a", "text": "None"},
+            {"id": "2b", "text": "0% - 30%"},
+            {"id": "2c", "text": "30% - 30%"},
+            {"id": "2d", "text": "More than 30%"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 1,
+        "type": "radio buttons",
+        "opening": false
+    },
+    {
+        "question": "How often do you buy locally produced food that is not imported to the UK?",
+        "answers": [
+            {"id": "3a", "text": "A lot of the food I buy is locally sourced"},
+            {"id": "3b", "text": "Some of the food I buy is locally sourced"},
+            {"id": "3c", "text": "I dont worry about where my food comes from"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 1,
+        "type": "radio buttons",
+        "opening": false
+    },
+    {
+        "question": "What kind of vehicle do you travel in most often as driver or passenger? (if any)",
+        "answers": [
+            {"id": "4a", "text": "Car"},
+            {"id": "4b", "text": "Motorbike"},
+            {"id": "4c", "text": "Neither - I walk, cycle or use public transport for all my journeys"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 2,
+        "type": "radio buttons",
+        "opening": false
+    },
+    {
+        "question": "How do you commute?",
+        "answers": [
+            {"id": "5a", "text": "Walk or cycle", "selected": ""},
+            {"id": "5b", "text": "Public transport", "selected": ""},
+            {"id": "5c", "text": "Motorbike", "selected": ""},
+            {"id": "5d", "text": "Electric car", "selected": ""},
+            {"id": "5e", "text": "Plug-in Hybrid car", "selected": ""},
+            {"id": "5f", "text": "Hybrid car", "selected": ""},
+            {"id": "5g", "text": "Small petrol or diesel car", "selected": ""},
+            {"id": "5h", "text": "Medium petrol or diesel car", "selected": "selected"},
+            {"id": "5i", "text": "Large petrol or diesel car", "selected": ""}
+        ],
+        "answerChoice": "Medium petrol or diesel car",
+        "answered": false,
+        "section": 2,
+        "type": "radio buttons",
+        "opening": false
+    },
+    {
+        "question": "How many hours a week do you spend in a car?",
+        "answers": [
+            {"id": "6a", "text": "Under 2 hours"},
+            {"id": "6b", "text": "2 to 5 hours"},
+            {"id": "6c", "text": "5 to 15 hours"},
+            {"id": "6d", "text": "15 to 25 hours"},
+            {"id": "6e", "text": "Over 25 hours"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 2,
+        "type": "radio buttons",
+        "opening": true
+    },
+    {
+        "question": "How many hours a week do you spend on the train for personal use including commuting?",
+        "answers": [
+            {"id": "7a", "text": "I don’t travel by train"},
+            {"id": "7b", "text": "Under 2 hours"},
+            {"id": "7c", "text": "2 to 5 hours"},
+            {"id": "7d", "text": "5 to 15 hours"},
+            {"id": "7e", "text": "15 to 25 hours"},
+            {"id": "7f", "text": "Over 25 hours"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 2,
+        "type": "radio buttons",
+        "opening": false
+    },
+    {
+        "question": "How many hours a week do you spend on the bus for personal use including commuting?",
+        "answers": [
+            {"id": "8a", "text": "I don’t travel by bus"},
+            {"id": "8b", "text": "Under 1 hours"},
+            {"id": "8c", "text": "1 to 3 hours"},
+            {"id": "8d", "text": "3 to 6 hours"},
+            {"id": "8e", "text": "6 to 10 hours"},
+            {"id": "8f", "text": "Over 10 hours"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 2,
+        "type": "radio buttons",
+        "opening": false
+    },
+    {
+        "question": "In the last year, how many return flights have you made in total to the following locations?",
+        "answers": [
+            {"id": "9a", "text": "Domestic (UK / Ireland)"},
+            {"id": "9b", "text": "Up to 1250 km away"},
+            {"id": "9c", "text": "Up to 2500 km away"},
+            {"id": "9d", "text": "Up to 5500 km away"},
+            {"id": "9e", "text": "Up to 9000 km away"},
+            {"id": "9f", "text": "Up to 17500 km away"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 2,
+        "type": "input field",
+        "opening": true
+    },
+    {
+        "question": "What percentage of your flights do you offset?",
+        "answers": [
+            {"id": "10a", "text": "None of them"},
+            {"id": "10b", "text": "25%"},
+            {"id": "10c", "text": "50%"},
+            {"id": "10d", "text": "75%"},
+            {"id": "10e", "text": "All of them"},
+            {"id": "10f", "text": "Not applicable"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 2,
+        "type": "radio buttons",
+        "opening": false
+    },
+    {
+        "question": "What kind of house do you live in?",
+        "answers": [
+            {"id": "11a", "text": "Detached"},
+            {"id": "11b", "text": "Semi detached"},
+            {"id": "11c", "text": "Terrace"},
+            {"id": "11d", "text": "Flat"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 3,
+        "type": "radio buttons",
+        "opening": false
+    },
+    {
+        "question": "How many bedrooms does your house have?",
+        "answers": [
+            {"id": "12a", "text": 1},
+            {"id": "12b", "text": 2},
+            {"id": "12c", "text": 3},
+            {"id": "12d", "text": "4 or more"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 3,
+        "type": "slider",
+        "opening": false
+    },
+    {
+        "question": "How many people (aged 17 and over) live in your house?",
+        "answers": [
+            {"id": "13a", "text": 1},
+            {"id": "13b", "text": 2},
+            {"id": "13c", "text": 3},
+            {"id": "13d", "text": 4},
+            {"id": "13e", "text": "5 or more"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 3,
+        "type": "slider",
+        "opening": false
+    },
+    {
+        "question": "How do you heat your home?",
+        "answers": [
+            {"id": "14a", "text": "Gas"},
+            {"id": "14b", "text": "Oil"},
+            {"id": "14c", "text": "Electricity"},
+            {"id": "14d", "text": "Wood"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 3,
+        "type": "radio buttons",
+        "opening": true
+    },
+    {
+        "question": "Is your electricity on a green tariff?",
+        "answers": [
+            {"id": "15a", "text": "I don’t know"},
+            {"id": "15b", "text": "No"},
+            {"id": "15c", "text": "Yes but the tarrif is less than 100% renewables"},
+            {"id": "15d", "text": "Yes 100%"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 3,
+        "type": "radio buttons",
+        "opening": false
+    },
+    {
+        "question": "Do you regularly turn off lights and not leave your appliances on standby?",
+        "answers": [
+            {"id": "16a", "text": "Yes"},
+            {"id": "16b", "text": "No"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 3,
+        "type": "radio buttons",
+        "opening": false
+    },
+    {
+        "question": "How warm do you keep your home in winter?",
+        "answers": [
+            {"id": "17a", "text": "below 14°C"},
+            {"id": "17b", "text": "14° - 17°C"},
+            {"id": "17c", "text": "18° - 21°C"},
+            {"id": "17d", "text": "Over 21°C"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 3,
+        "type": "slider",
+        "opening": false
+    },
+    {
+        "question": "Which of these home energy efficiency improvements are installed in your home?",
+        "answers": [
+            {"id": "18a", "text": "Energy saving lightbulbs"},
+            {"id": "18b", "text": "Loft insulation"},
+            {"id": "18c", "text": "Cavity or solid wall insulation"},
+            {"id": "18d", "text": "Condensing boiler"},
+            {"id": "18e", "text": "Double glazing"},
+            {"id": "18f", "text": "Low flow fittings to taps and showers"},
+            {"id": "18g", "text": "Solar panels"},
+            {"id": "18h", "text": "Solar water heater"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 3,
+        "type": "checkboxes",
+        "opening": false
+    },
+    {
+        "question": "In the last 12 months, have you bought any of these new household items?",
+        "answers": [
+            {"id": "19a", "text": "TV, laptop or PC"},
+            {"id": "19b", "text": "Large item of furniture"},
+            {"id": "19c", "text": "Washing machine, dishwasher, tumble dryer or fridge freezer"},
+            {"id": "19d", "text": "Mobile phone or tablet"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 4,
+        "type": "checkboxes",
+        "opening": false
+    },
+    {
+        "question": "In a typical month, how much do you spend on clothes and footwear?",
+        "answers": [
+            {"id": "20a", "text": "£0"},
+            {"id": "20b", "text": "£1 - £50"},
+            {"id": "20c", "text": "£50 - £150"},
+            {"id": "20d", "text": "£150+"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 4,
+        "type": "radio buttons",
+        "opening": false
+    },
+    {
+        "question": "In a typical month, how much do you spend on your pets and pet food?",
+        "answers": [
+            {"id": "21a", "text": "I don’t have a pet"},
+            {"id": "21b", "text": "£1 - £10"},
+            {"id": "21c", "text": "£10 - £30"},
+            {"id": "21d", "text": "£30+"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 4,
+        "type": "radio buttons",
+        "opening": false
+    },
+    {
+        "question": "In a typical month, how much do you spend on health, beauty and grooming products?",
+        "answers": [
+            {"id": "22a", "text": "£0 - £10"},
+            {"id": "22b", "text": "£10 - £50"},
+            {"id": "22c", "text": "£50+"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 4,
+        "type": "radio buttons",
+        "opening": false
+    },
+    {
+        "question": "In a typical month, how much do you spend on phone, internet and TV contracts?",
+        "answers": [
+            {"id": "23a", "text": "£0"},
+            {"id": "23b", "text": "£1 - £30"},
+            {"id": "23c", "text": "£30 - £60"},
+            {"id": "23d", "text": "£60+"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 4,
+        "type": "radio buttons",
+        "opening": false
+    },
+    {
+        "question": "Which of these types of waste do you recycle and/or compost?",
+        "answers": [
+            {"id": "24a", "text": "Food"},
+            {"id": "24b", "text": "Paper"},
+            {"id": "24c", "text": "Tin cans"},
+            {"id": "24d", "text": "Plastic"},
+            {"id": "24e", "text": "Glass"}
+        ],
+        "answerChoice": "",
+        "answered": false,
+        "section": 4,
+        "type": "checkboxes",
+        "opening": false
+    }
+]}

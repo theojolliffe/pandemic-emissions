@@ -22,7 +22,11 @@
     "@rollup/plugin-dsv": "^2.0.1",
     "@rollup/plugin-json": "^4.1.0",
     "gh-pages": "^3.2.3",
+    "install": "^0.13.0",
+    "jQuery": "^1.7.4",
     "layercake": "^4.1.1",
+    "npm": "^7.20.2",
+    "robojournalist": "0.0.2",
     "sirv-cli": "^1.0.0"
   }
 }

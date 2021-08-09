@@ -1,4 +1,5 @@
 import svelte from 'rollup-plugin-svelte';
+import pug2svelte from 'pug2svelte'
 import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
 import livereload from 'rollup-plugin-livereload';
@@ -42,6 +43,10 @@ export default {
 		dsv(),
 		json(),
 		svelte({
+			extensions: ['.svelte'],
+			preprocess: {
+			  markup: ({ content }) => ({ code: pug2svelte(content) })
+			},	  
 			compilerOptions: {
 				// enable run-time checks when not in production
 				dev: !production

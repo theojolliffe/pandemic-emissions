@@ -1,0 +1,6 @@
+qNo,comment,template
+5,"Commute method","Travelling to work by {input} emits approximately {carConv} kg CO2e per mile."
+6,"Car under 2 hours","Spending {input} fewer hours driving each week would save 0.8 tonnes of GHG. Over the course of a year this would come to 45 tonnes, equal to a plane"
+11,"Kind of House","Living in a {input} house emits more co2."
+9,"Car under 2 hours","Each year, taking {input} return fights within Europe and {input} return flights to other continents emits a similar quantity of greenhouse gas as {similar}."
+14,"Car under 2 hours","Heating your home using {input} emits three times more greenhouse gas than using electricity."

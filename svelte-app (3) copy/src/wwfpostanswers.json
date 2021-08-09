@@ -1,0 +1,157 @@
+{
+    "data": {
+        "Food": {
+            "q1": {
+                "a1": null,
+                "a2": null,
+                "a3": null,
+                "a4": null,
+                "a5": null,
+                "a6": null
+            },
+            "q2": {
+                "a1": null,
+                "a2": null,
+                "a3": null,
+                "a4": null
+            },
+            "q3": {
+                "a1": null,
+                "a2": null,
+                "a3": null,
+                "a4": null
+            },
+            "q4": {
+                "a1": null,
+                "a2": null,
+                "a3": null
+            }
+        },
+        "Home": {
+            "q1": {
+                "a1": true,
+                "a2": null,
+                "a3": null,
+                "a4": null
+            },
+            "q2": {
+                "a1": true,
+                "a2": null,
+                "a3": null,
+                "a4": null
+            },
+            "q3": {
+                "a1": true,
+                "a2": null,
+                "a3": null,
+                "a4": null,
+                "a5": null
+            },
+            "q4": {
+                "a1": true            
+            },
+            "q5": {
+                "a1": true,
+                "a2": null,
+                "a3": null,
+                "a4": null
+            },
+            "q6": {
+                "a1": true,
+                "a2": null
+            },
+            "q7": {
+                "a1": null,
+                "a2": true,
+                "a3": null,
+                "a4": null
+            },
+            "q8": {
+                "a1": null,
+                "a2": null,
+                "a3": null,
+                "a4": null,
+                "a5": null,
+                "a6": null,
+                "a7": null,
+                "a8": null
+            }
+        },
+        "Travel": {
+            "q1": {
+                "a1": true,
+                "a2": null,
+                "a3": null
+            },
+            "q2": {
+                "a1": null,
+                "a2": null,
+                "a3": null,
+                "a4": null,
+                "a5": null,
+                "a6": true
+            },
+            "q3": {
+                "a1": 0
+            },
+            "q4": {
+                "a1": true,
+                "a2": null,
+                "a3": null,
+                "a4": null,
+                "a5": null,
+                "a6": null
+            },
+            "q5": {
+                "a1": true,
+                "a2": null,
+                "a3": null,
+                "a4": null,
+                "a5": null,
+                "a6": null
+            },
+            "q6": {
+                "a1": 0,
+                "a2": null
+            }
+        },
+        "Stuff": {
+            "q1": {
+                "a1": true,
+                "a2": null,
+                "a3": null,
+                "a4": null
+            },
+            "q2": {
+                "a1": null,
+                "a2": true,
+                "a3": null,
+                "a4": null
+            },
+            "q3": {
+                "a1": true,
+                "a2": null,
+                "a3": null,
+                "a4": null
+            },
+            "q4": {
+                "a1": null,
+                "a2": true,
+                "a3": null
+            },
+            "q5": {
+                "a1": null,
+                "a2": true,
+                "a3": null,
+                "a4": null
+            },
+            "q6": {
+                "a1": null,
+                "a2": null,
+                "a3": null,
+                "a4": null,
+                "a5": null
+            }
+        }
+    }
+}

@@ -6,7 +6,7 @@
     <div class="wrapper">
         <div class="prototype py-2">
             <p class="my-2 text-sm">
-                <strong>Warning</strong> this is a prototype. The data used was either randomly generated or based on 2001 and 2011 census data.
+                <strong>Warning</strong> this is a prototype. The data used may have been randomly generated.
             </p>
         </div>
     </div>

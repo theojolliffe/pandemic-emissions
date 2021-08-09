@@ -1,31 +1,22 @@
 <script>
-  import { onMount, createEventDispatcher } from 'svelte';
+  import { onMount } from 'svelte';
   import Snackbar from './Snackbar.svelte';
   import ENVDIALS from './ENVDIALS.svelte';
-
-
   import { fadeIn, fadeOut } from './transitions.js';
   import { htmlDecode, shuffle } from './utils.js'; 
-
   import questions from './questions.json';  
-
-  const dispatch = createEventDispatcher();
   let data = [];
-
   let questionNo = 0;
   let buttonBarVisibility = true;
   let snackbarVisibility = false;
   let snackbarMessage = false;
   let resultsScreen = false;
-
   $: representation = [];
   $: score = 0;
   $: finalMessage = '';
-
   function repro() {
     return representation
   };
-
   function buildData() {
       data = questions.results  
       representation = data.reduce((acc, curr) => {
@@ -76,43 +67,37 @@
           return acc;
       }, []);
   }
-
   onMount(buildData);
-
   function handleClick(change) {
     if (change === 'f') questionNo += 1;
     else questionNo -= 1;
   }
-
   function handleAnswerChoiceNum(e = {}, members) {
     console.log("members,", members)
       const representationCopy = { ...representation[questionNo] };
       representationCopy.answered = true;
       representationCopy.answerChoice = members;
       representation[questionNo] = representationCopy;
+      console.log("representation", representation)
   }
-
   function handleAnswerChoiceOpt(e = {}) {
       const representationCopy = { ...representation[questionNo] };
       representationCopy.answered = true;
       representationCopy.answerChoice = e.target.innerText;
       representation[questionNo] = representationCopy;
   }
-
   function handleAnswerChoiceBool(e = {}) {
       const representationCopy = { ...representation[questionNo] };
       representationCopy.answered = true;
       representationCopy.answerChoice = e.target.innerText;
       representation[questionNo] = representationCopy;
   }
-
   function handleAnswerChoiceSubBool(e = {}, oilCoal) {
       const representationCopy = { ...representation[questionNo] };
       representationCopy.answered = true;
       representationCopy.subAnswerChoice = oilCoal;
       representation[questionNo] = representationCopy;
   }
-
   let members = '';
   let oilCoal = {};
 </script>
@@ -253,77 +238,62 @@
     background-color: white;
     border-radius: 6px;
     box-shadow: 0 0 5px white;
-
     text-align: left;
   }
-
   span {
     display: block;
     margin-top: 20px;
   }
-
   button {
     margin-top: 15px;
     margin-right: 15px;
     padding: 10px;
     float: right;
-
     color: white;
     background-color: #16302b;
     border: none;
     border-radius: 10px;
     cursor: pointer;
   }
-
   button:hover {
     box-shadow: 0 0 5px #16302b;
   }
-
   #heading {
     font-size: 24px;
     font-weight: bolder;
   }
-
   #button-bar {
     position: absolute;
     bottom: -66px;
     right: 0;
   }
-
   #choice {
     margin-top: 16px;
     padding: 8px;
-
     border: 1px solid #4e5656;
     border-radius: 8px;
   }
-
   #choice:hover {
     cursor: pointer;
     background: #7ddf64;
     border: 1px solid #7ddf64;
     color: white;
   }
-
   #snackbar {
     position: absolute;
     left: 16px;
     bottom: 24px;
   }
-
   #results {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
-
     text-align: center;
   }
-
   #score {
     font-size: 48px;
   }
-
   @media screen and (max-width: 960px) {
     #main {
       width: calc(100vw - 15%);

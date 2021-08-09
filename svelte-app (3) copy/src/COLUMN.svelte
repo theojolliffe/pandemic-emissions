@@ -5,11 +5,7 @@
     import Column from './components/Column.svelte';
     import AxisX from './components/AxisX.svelte';
     import AxisY from './components/AxisY.svelte';
-  
-    // This example loads csv data as json using @rollup/plugin-dsv
-    import dataold from './data/groups.csv';
-    console.log('datold', dataold)
-
+ 
     export let data;
 
     console.log("data", data)
@@ -41,7 +37,7 @@
       x={xKey}
       y={yKey}
       xScale={scaleBand().paddingInner([0.02]).round(true)}
-      xDomain={[data[0].product, data[1].product, data[2].product, data[3].product, data[4].product]}
+      xDomain={[data[0].product, data[1].product, data[2].product]}
       yDomain={[0, null]}
       data={data}
     >

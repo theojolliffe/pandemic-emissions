@@ -1,5 +1,6 @@
 <script>
     import QuizArea from './QuizArea.svelte';  
+    import QuizAreaWWF from './QuizAreaWWF.svelte';  
     let playerScore = 0;
     let visible = true;
 </script>
@@ -29,7 +30,7 @@
       </p>
     {/if}
   
-    <QuizArea
+    <QuizAreaWWF
       on:score={e => {
         playerScore = e.detail.score;
       }}
