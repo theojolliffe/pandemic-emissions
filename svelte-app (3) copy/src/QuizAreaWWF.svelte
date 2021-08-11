@@ -10,6 +10,7 @@
     import answerLookup from './data/answerLookup.json';
     import stringsRos from './robo-strings/rosae-strings.js';
     import { LineChart } from '@onsvisual/svelte-charts';
+    import Line from './Line.svelte';
     import dataFake from './data';
 
     // Transform report string csv to object
@@ -77,11 +78,24 @@
     console.log('wwf', wwf)
 
     let a = 9.9;
-    let share = 0
+    let room = 2;
+    let share = 1;
+    let temp = 21;
 
+
+    let wfhDays = 1
+    let deskWattage = 140
+    let lighWattage = 10
+    let fte = wfhDays/5
+    let workingDays = 240
+    let workingHours = 8
+    let WHpa = workingHours*workingDays
+    let officeElec = (deskWattage+lighWattage)*fte*WHpa/1000
+    let wfhEnergyUse = 0
 </script>
 
-<div style="width:60%; margin:auto; text-align: left;">
+<div style="width:50%; margin:auto; text-align: left;">
+
 
     <h2>How does working from home impact your carbon footprint?</h2>
 
@@ -110,7 +124,6 @@
             })}
         </span>
     </div>
-    <br>
     <!--  SECTION 6: COMMUTE LENGTH  -->
     <!--  SECTION 6: COMMUTE LENGTH  -->
     <!--  SECTION 6: COMMUTE LENGTH  -->
@@ -131,19 +144,23 @@
         <form style="float:left">&nbsp
             <input type=number step="0.5" min=0 max=4 bind:value={share}>
     &nbsp</form>
-        <span style="margin: revert;">others, you will emit <strong>{(Math.round(240*2*a*vehicalLU[wwf[5].answerChoice]/(1000*(share+1))*10)/10).toLocaleString()} tonnes</strong> of GHG in a typical year of 240 commuting days.</span>
-        <br>
-        <p>The average person in the UK has an annual carbon footprint of 12.7 tonnes CO2e</p>
+        <span style="margin: revert;">others, you will personally emit <strong>{(Math.round(240*2*a*vehicalLU[wwf[5].answerChoice]/(1000*(share+1))*10)/10).toLocaleString()} tonnes</strong> of GHG in a typical year of 240 commuting days.</span>
+        <p>This is equivilent to a return flight to Singapore and is 8% off the Brit's annual footprint (12.7 tonnes GHGe)</p>
+        <p>You would save 150 kg of GHG a year if you spent two fewer hours in a car each week</p>
     </div>
 
     <hr style="margin:40px 100px 40px 100px; color:lightgray">
 
+    <!--  *************************  -->
+    <!--  *************************  --> 
     <div>
-        <h3>An average person would save 2 tonnes of CO2 a year if they spent two hours a week less in a car</h3>
+        <h3>Chart comparing GHG you would emit commuting with different vehicles</h3>
         <div class="chart">
             <LineChart data={dataFake} xKey="year" yKey="value" zKey="group" stacked={true} line={false} areaOpacity={1}/>
         </div>
     </div>
+    <!--  *************************  -->
+    <!--  *************************  --> 
 
 
     <!--  SECTION 11: KIND OF HOUSE  -->
@@ -171,42 +188,30 @@
         </span>
     </div>
 
-    <hr style="margin:40px 100px 40px 100px; color:lightgray">
-    
-    <p>{wwf[11].answerChoice}</p>
-    <p>{wwf[14].answerChoice}</p>
 
-        <div id="cont">
-            <p>How many homes have green energy</p>
+    <div id="span-cont">
 
-            <div id="span-cont">
+        <span style="float:left; margin-top: 0px;">Living in a</span>
 
-                <span style="float:left; margin-top: 0px;">Living in a</span>
+        <form style="float:left">&nbsp
+            <input type=number step="0.5" bind:value={room}>
+    &nbsp</form>
 
-                <form style="float:left">&nbsp
-                    <input type=number step="0.5" bind:value={share}>
-            &nbsp</form>
+        <span style="float:left">bedroom house with</span>
 
-                <span style="float:left">bedroom house of</span>
+        <form style="float:left">&nbsp
+            <input type=number step="0.5" bind:value={share}>
+    &nbsp</form>
 
-                <form style="float:left">&nbsp
-                    <input type=number step="0.5" bind:value={share}>
-            &nbsp</form>
+        <span style="margin: revert;">other, requires, on average, 20% less energy to heat than a three bedroom house.</span>
+    </div>
+    <div id="span-cont">
+        <span></span>
+    </div>
 
-                <span style="margin: revert;">residents reduces your household energy consumption by 20%, compared to a house of 3.</span>
-            </div>
-
-            <div>
-                <input type=range bind:value={a} min=0 max=200>
-            </div>
-
-        </div>
-
-
-    <!-- SECTION 14: HEAT YOUR HOME  -->
-    <!-- SECTION 14: HEAT YOUR HOME  -->
-    <!-- SECTION 14: HEAT YOUR HOME  -->
-    <hr style="margin:40px 100px 40px 100px; color:lightgray">
+    <!-- SECTION 14: HEAT METHOD  -->
+    <!-- SECTION 14: HEAT METHOD  -->
+    <!-- SECTION 14: HEAT METHOD  -->
     <div>
         <span style="float:left; margin-top: 0px;">
             {string14[0]}
@@ -228,15 +233,42 @@
             })}
         </span>
     </div>
-        
-    <div>**************</div>
 
-    <p>If 40% of the country worked from home {3} days a week it would have x result on UK carbon emissions </p>
+    <!-- SECTION: HEAT TEMPERATURE  -->
+    <!-- SECTION: HEAT TEMPERATURE  -->
+    <!-- SECTION: HEAT TEMPERATURE  -->
+    <p>The recommended temparture to heat your house during the cold months is 21°C.</p>
+    <p><strong>How hot do you keep you house?</strong></p>
+    <div>
+        <input class="slider" type=range step="1" min=10 max=30 bind:value={temp}>
+    </div>
+    <div>
+        Setting your temperature to <strong>{temp}°C</strong>, you emit <strong>{Math.round(2*temp*vehicalLU[wwf[5].answerChoice]*10)/100} kg of GHG</strong> during an eight hour working winter day.
+    </div>
+
+    <hr style="margin:40px 100px 40px 100px; color:lightgray">
+ 
+    <!--  *************************  -->
+    <!--  *************************  --> 
+    <!-- <div style="height: 400px; width: 600px">
+        <Line></Line>
+    </div> -->
+    <div>
+        <h3>Chart comparing the GHG you would save wfh to other lifestyle changes</h3>
+        <div class="chart">
+            <LineChart data={dataFake} xKey="year" yKey="value" zKey="group" stacked={true} line={false} areaOpacity={1}/>
+        </div>
+    </div>
+
+    <hr style="margin:40px 100px 40px 100px; color:lightgray">
+
+    <p>In one year working from home 3 days every week you would save 0.6 tonnes of GHG</p>
+    <p>If every UK resident reduced their GHG emissions by 0.6 tonnes the UK would be {(0.6*7000000).toLocaleString()} tonnes of GHG closer to net zero.</p>
+    <p>Based on the various commutes and energy efficiencies of homes, if all working adults in the UK began working from home on average 2 times per week, the UK would reduce carbon emissions by 1,000 tonnes of GHG.</p>
 
  
 </div>
 
-<hr style="margin:40px 100px 40px 100px; color:lightgray">
 
 <style>
 
@@ -285,7 +317,6 @@
     }
     span {
       display: block;
-      margin-top: 20px;
     }
     button {
       margin-top: 15px;
@@ -364,9 +395,7 @@
         font-size: revert;
         line-height: revert;
     }
-    h1, h2, h3, h4, h5 {
-    width: 500px;
-}    
+    
 .chart {
         height: 250px;
         width: 500px;
@@ -386,13 +415,13 @@
         margin-right: auto;
     }
     div {
-        margin-top: 50px
+        margin-top: 25px
     }
     span {
         line-height: 1.8
     }
     #span-cont {
-        margin-top: 50px
+        margin-top: 25px
     }
     input[type="number"] {
         width: 40px;
@@ -417,5 +446,8 @@
         .profile-grid {
             display:grid;
         }
+    }
+    p {
+        margin-top: 25px;
     }
   </style>
