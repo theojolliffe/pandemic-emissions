@@ -145,7 +145,7 @@
             <input type=number step="0.5" min=0 max=4 bind:value={share}>
     &nbsp</form>
         <span style="margin: revert;">others, you will personally emit <strong>{(Math.round(240*2*a*vehicalLU[wwf[5].answerChoice]/(1000*(share+1))*10)/10).toLocaleString()} tonnes</strong> of GHG in a typical year of 240 commuting days.</span>
-        <p>This is equivilent to a return flight to Singapore and is 8% off the Brit's annual footprint (12.7 tonnes GHGe)</p>
+        <p>This is equivilent to a return flight to Singapore and is 8% off the average Brit's annual footprint (12.7 tonnes GHGe)</p>
         <p>You would save 150 kg of GHG a year if you spent two fewer hours in a car each week</p>
     </div>
 
